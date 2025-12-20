@@ -1,0 +1,75 @@
+body{
+    margin: 0px 15vw 0px 15vw;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+   
+    
+    
+
+}
+header button{
+    height: 35px;
+    background-color: rgb(95, 157, 232);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+h2{
+    color: rgb(95, 157, 232);
+}
+nav{
+   
+    
+}
+nav a{
+text-decoration:none ;
+margin: 10px;
+}
+main{
+    display: flex;
+    height: 500px;
+    margin-top: 10%;
+    align-items: center;
+
+}
+section{
+   
+    height: 500px;
+}
+figure{
+   
+     width: 50%;
+}
+figure img{
+    height: 500px;
+    width: 50vw;
+   
+}
+.button-box{
+    display: flex;
+
+}
+.button-box :nth-child(1){
+    background-color:  rgb(95, 157, 232);
+    border: none;
+    width: 10vw;margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+}
+.button-box :nth-child(2){
+   
+    border: none;
+    width: 10vw;margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
