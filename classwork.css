@@ -3,50 +3,60 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 70px;
-   
-    
-    
-
+    height: 100px;
 }
 header button{
-    height: 35px;
-    background-color: rgb(95, 157, 232);
+    height: 45px;
+    width: 100px;
+    background-color: rgb(47, 118, 205);
     border: none;
     border-radius: 5px;
     color: white;
+    font-size:large;
 }
 h2{
-    color: rgb(95, 157, 232);
+    color: rgb(47, 118, 205);
+    font-size: xx-large;
 }
-nav{
-   
-    
-}
+
 nav a{
 text-decoration:none ;
 margin: 10px;
+font-size: x-large;
 }
 main{
-    display: flex;
-    height: 500px;
-    margin-top: 10%;
+    display: grid;
+    height: 400px;
+    margin-top: 5%;
     align-items: center;
+    grid-template-columns: 1fr 1fr;
 
 }
 section{
-   
-    height: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    height: 400px;
+}
+section h1 span{
+  color: rgb(47, 118, 205);  
+}
+section p{
+    font-size: large;
+    line-height: 25px;
+    color: rgb(84, 84, 135);
 }
 figure{
    
      width: 50%;
 }
-figure img{
-    height: 500px;
-    width: 50vw;
+figure img{ 
+    height: 400px;
+    background-size: cover;
+    
+   
    
 }
 .button-box{
@@ -54,12 +64,14 @@ figure img{
 
 }
 .button-box :nth-child(1){
-    background-color:  rgb(95, 157, 232);
+    background-color:  rgb(47, 118, 205);
     border: none;
-    width: 10vw;margin-right: 10px;
+    width: 10vw;
+    margin-right: 10px;
     border-radius: 5px;
     color: white;
-    height: 30px;
+    height: 50px;
+    font-size: large;
 }
 .button-box :nth-child(2){
    
@@ -67,9 +79,31 @@ figure img{
     width: 10vw;margin-right: 10px;
     border-radius: 5px;
     height: 30px;
+     height: 50px;
+    font-size: large;
 }
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 5%;
+}
+.card{
+    height: 350px;
+    padding: 10px;
+}
+.card p{
+    font-size: large;
+    line-height: 25px;
+    color: rgb(84, 84, 135);
+}
+.card h3{
+    font-size: x-large;
+}
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    background-color: rgba(159, 189, 215,.2);
+    padding: 10px;
+    
 }
 
